@@ -39,6 +39,8 @@ dependencies {
     //implementation 'org.hibernate.orm:hibernate-community-dialects:6.4.1.Final'
     //mysql
     runtimeOnly 'com.mysql:mysql-connector-j'
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
 tasks.named('test') {
